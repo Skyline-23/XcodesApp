@@ -114,7 +114,8 @@
 		CAFE4AB425B7D3AF0064FE51 /* AdvancedPreferencePane.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFE4AB325B7D3AF0064FE51 /* AdvancedPreferencePane.swift */; };
 		CAFE4ABC25B7D54B0064FE51 /* UpdatesPreferencePane.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFE4ABB25B7D54B0064FE51 /* UpdatesPreferencePane.swift */; };
 		CAFFFED8259CDA5000903F81 /* XcodeListViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFFFED7259CDA5000903F81 /* XcodeListViewRow.swift */; };
-		D0B064292EB65775003CBB98 /* unxip in Resources */ = {isa = PBXBuildFile; fileRef = D0B064282EB65775003CBB98 /* unxip */; };
+		D0B0642B2EB65B0C003CBB98 /* unxip in Resources */ = {isa = PBXBuildFile; fileRef = D0B0642A2EB65B0C003CBB98 /* unxip */; };
+		D0B0642C2EB65BCF003CBB98 /* unxip in Copy aria2c */ = {isa = PBXBuildFile; fileRef = D0B0642A2EB65B0C003CBB98 /* unxip */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		D93F95C12E0C8C1A00238FB5 /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93F95C02E0C8C1A00238FB5 /* TagView.swift */; };
 		E689540325BE8C64000EBCEA /* DockProgress in Frameworks */ = {isa = PBXBuildFile; productRef = E689540225BE8C64000EBCEA /* DockProgress */; };
 		E81D7EA02805250100A205FC /* Collection+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81D7E9F2805250100A205FC /* Collection+.swift */; };
@@ -189,6 +190,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 6;
 			files = (
+				D0B0642C2EB65BCF003CBB98 /* unxip in Copy aria2c */,
 				CAA8589325A2B77E00ACF8C0 /* aria2c in Copy aria2c */,
 			);
 			name = "Copy aria2c";
@@ -321,7 +323,7 @@
 		CAFE4ABB25B7D54B0064FE51 /* UpdatesPreferencePane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdatesPreferencePane.swift; sourceTree = "<group>"; };
 		CAFFFED7259CDA5000903F81 /* XcodeListViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeListViewRow.swift; sourceTree = "<group>"; };
 		CAFFFEEE259CEAC400903F81 /* RingProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingProgressViewStyle.swift; sourceTree = "<group>"; };
-		D0B064282EB65775003CBB98 /* unxip */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = unxip; sourceTree = "<group>"; };
+		D0B0642A2EB65B0C003CBB98 /* unxip */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = unxip; sourceTree = "<group>"; };
 		D93F95C02E0C8C1A00238FB5 /* TagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
 		E81D7E9F2805250100A205FC /* Collection+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+.swift"; sourceTree = "<group>"; };
 		E832EAF72B0FBCF4001B570D /* RuntimeInstallationStepDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuntimeInstallationStepDetailView.swift; sourceTree = "<group>"; };
@@ -561,7 +563,7 @@
 		CABFAA1D2592F7F200380FEE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D0B064282EB65775003CBB98 /* unxip */,
+				D0B0642A2EB65B0C003CBB98 /* unxip */,
 				E8EEAD1C2E79174F00BE67E8 /* XcodesIcon.icon */,
 				CAA858DA25A3E11F00ACF8C0 /* aria2-release-1.35.0.tar.gz */,
 				CAA8588025A2B63A00ACF8C0 /* aria2c */,
@@ -843,7 +845,7 @@
 				E8EEAD1D2E79174F00BE67E8 /* XcodesIcon.icon in Resources */,
 				CA9FF83F2594FBC000E47BAF /* Licenses.rtf in Resources */,
 				CAA858DB25A3E11F00ACF8C0 /* aria2-release-1.35.0.tar.gz in Resources */,
-				D0B064292EB65775003CBB98 /* unxip in Resources */,
+				D0B0642B2EB65B0C003CBB98 /* unxip in Resources */,
 				CAD2E7A62449575000113D76 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1155,7 +1157,7 @@
 				CODE_SIGNING_SUBJECT_ORGANIZATIONAL_UNIT = ZU6GR6B2FY;
 				CODE_SIGN_STYLE = Automatic;
 				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
-				DEVELOPMENT_TEAM = ZU6GR6B2FY;
+				DEVELOPMENT_TEAM = Q23JLSJCCV;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/$(TARGET_NAME)/Info.plist";
 				MARKETING_VERSION = 2.0.0;
@@ -1208,7 +1210,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
-				DEVELOPMENT_TEAM = ZU6GR6B2FY;
+				DEVELOPMENT_TEAM = Q23JLSJCCV;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/$(TARGET_NAME)/Info.plist";
 				MARKETING_VERSION = 2.0.0;
@@ -1359,7 +1361,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 34;
 				DEVELOPMENT_ASSET_PATHS = "\"Xcodes/Preview Content\"";
-				DEVELOPMENT_TEAM = ZU6GR6B2FY;
+				DEVELOPMENT_TEAM = Q23JLSJCCV;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Xcodes/Resources/Info.plist;
@@ -1388,7 +1390,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 34;
 				DEVELOPMENT_ASSET_PATHS = "\"Xcodes/Preview Content\"";
-				DEVELOPMENT_TEAM = ZU6GR6B2FY;
+				DEVELOPMENT_TEAM = Q23JLSJCCV;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Xcodes/Resources/Info.plist;
